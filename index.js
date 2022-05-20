@@ -34,8 +34,8 @@ const getGreetMessage = isGroup =>
 Məni Qrupuna Əlavə Edərək Adminlik Hüquqlarimi Ver /game Əmriylə Oyunu Başlada Bilərsiniz.
 Qrup Medyasının Açıq Olmağı Mütləqdir.
 
-	🧑‍💻 Qurucu: @Vusaliww
-	✅Rəsmi Kanal: @cGuesMasterResmi
+	🧑‍💻 Qurucu: @lRevanl
+	✅Rəsmi Kanal: @lRevanlBlog
 `)
 const getRandomPerson = () => {
 	let imagePath = "./photos"
@@ -107,7 +107,7 @@ const stopGame = (ctx, chatId) => {
 						.map((member, index) => `${["🏆", "🎖", "🏅"][index] || "🔸"} ${index + 1}. ${bold(member.firstName)}: ${numberWithSpaces(member.score)} ${pluralize(member.score, "⚡xal", "⚡xal", "⚡xal")}`)
 						.join("\n")}
 
-					❤️ Botun Rəsmi Kanalına Abunə Olmağı Unutmayaq. @cGuesMasterResmi
+					❤️ Botun Rəsmi Kanalına Abunə Olmağı Unutmayaq. @lRevanlBlog
 					🔄 /game - Bir daha?
 				`)
 			)
@@ -116,7 +116,7 @@ const stopGame = (ctx, chatId) => {
 				trueTrim(`
 					*🏁 Oyun Oynamadığınız Üçün Qalib Yoxdur. .*
 
-					❤️ Botun Rəsmi Kanalına Abunə Olmağı Unutmayaq. @cGuesMasterResmi
+					❤️ Botun Rəsmi Kanalına Abunə Olmağı Unutmayaq. @lRevanlBlog
 					🔄 /game - Bir daha?
 				`)
 			)
@@ -289,7 +289,7 @@ bot.command("cgmelumat", ctx => {
 			🎈 Bizi Seçdiyiniz Üçün Təşəkkürlər 🎈
 
 			✅Rəsmi Kanal: @cGuesMasterResmi
-                        🧑‍💻 Qurucu: @Vusaliww
+                        🧑‍💻 Qurucu: @lRevanl
 		`)
 	)
 })
@@ -323,7 +323,7 @@ bot.command("catreyting", ctx => {
 						.map((member, index) => `${["🏆", "🎖", "🏅"][index] || "🔸"} ${index + 1}. ${bold(member.firstName)}: ${numberWithSpaces(member.score)} ${pluralize(member.score, "⚡xal", "⚡xal", "⚡xal")}`)
 						.join("\n")}
 
-					❤️ Botun Rəsmi Kanalına Abunə Olmağı Unutmayaq.  @cGuesMasterResmi
+					❤️ Botun Rəsmi Kanalına Abunə Olmağı Unutmayaq.  @lRevanlBlog
 					🔄 /game - Bir daha?
 				`)
 				)
